@@ -1,0 +1,7 @@
+{
+     "editor.tabSize": 2,
+     "html.format.maxPreserveNewLines": 12,
+     "html.format.indentInnerHtml": true,
+     "html.format.indentHandlebars": true,
+     "html.format.wrapLineLength": 60
+}
