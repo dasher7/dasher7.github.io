@@ -31,6 +31,10 @@
      float: right;
 }
 
+.wrapper{
+     font-family: 'Roboto Mono', monospace;
+}
+
 .sidebar-content{
      text-align: center;
      margin: auto;
@@ -39,7 +43,7 @@
 .propic {
      width: 300px;
      height: 300px;
-     scale: auto;
+     scale: 1.2;
      border-radius: 50%;
 }
 
@@ -51,7 +55,7 @@
 
 .highlight{
      background-color: grey;
-     padding-top: 1px;
+     padding-top: 0.8px;
      padding-bottom: 1px;
      padding-left: 3px;
      padding-right: 3px;
@@ -65,4 +69,15 @@
 
 .sidebar-buttons{
      margin: 3em;
+}
+
+#skills p {
+     font-family: 'Roboto Mono', monospace;
+     font-size: 1.2em;
+}
+
+.skills-content{
+     margin: auto;
+     width: 85%;
+     padding: 0.8em;
 }
