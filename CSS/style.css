@@ -34,6 +34,12 @@
      height: 50vh;
 }
 
+.blog{
+     background-color: rgb(152, 190, 174);
+     grid-column-start: 2;
+     height: 50vh;
+}
+
 .contact-me{
      background-color: #C7EBF0;
      grid-column-start: 2;
