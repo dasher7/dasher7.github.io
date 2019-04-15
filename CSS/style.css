@@ -1,3 +1,14 @@
+:root{
+     --punchy-green: #00EDC5;
+     --punchy-yellow: #F4FF32;
+     --modest-light-blue: #7FD8FF;
+     --shy-red: #FF5E5B;
+     --pale-pinky: #FFE2EF;
+     --platinum-trophy: #E5E1EE;
+     --undefined-grey: #FFFCF2;
+     --cool-bg-highlight: #C7EBF0;
+}
+
 .container-grid{
      display: grid;
      grid-template-columns: 0.3fr 0.7fr;
@@ -18,32 +29,32 @@
 }
 
 .skilLs{
-     background-color: #D7FFAB;
+     background-color: var(--punchy-green);
      grid-column-start: 2;
      height: 50vh;
 }
 
 .personal-experience{
-     background-color: #96ADC8;
+     background-color: var(--punchy-yellow);
      grid-column-start: 2;
      height: 50vh;
 }
 
 .projects{
-     background-color: #EFF7CF;
+     background-color: var(--modest-light-blue);
      grid-column-start: 1;
      grid-column-end: 3;
      height: 50vh;
 }
 
 .blog{
-     background-color: rgb(152, 190, 174);
+     background-color: var(--pale-pinky);
      grid-column-start: 2;
      height: 50vh;
 }
 
 .contact-me{
-     background-color: #C7EBF0;
+     background-color: var(--undefined-grey);
      grid-column-start: 2;
      height: 50vh;
 }
@@ -60,9 +71,9 @@
 }
 
 .highlight{
+     background-color: var(--cool-bg-highlight);
      font-weight: bolder;
      margin: 3px;
-     background-color:#C7EBF0;
 }
 
 .icon-container{
