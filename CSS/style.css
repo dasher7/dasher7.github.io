@@ -3,8 +3,7 @@
      grid-template-columns: 0.3fr 0.7fr;
 }
 
-.sidebar-content-2{
-     background-color: #FCFF6C;
+.sidebar-content-grid{
      grid-column-start: 1;
      grid-column-end: 2;
      grid-row-start: 1;
@@ -13,6 +12,9 @@
      z-index: -1;
      height: 100%;
      width: 30%;
+     text-align: center;
+     margin-top: 8%;
+     font-family: 'Roboto Mono';
 }
 
 .skilLs{
@@ -44,4 +46,48 @@
      background-color: #C7EBF0;
      grid-column-start: 2;
      height: 50vh;
+}
+
+.propic{
+     border-radius: 50%;
+     height: 300px;
+     width: 300px;
+}
+
+.slogan{
+     margin: 1em;
+     font-weight: bold;
+}
+
+.highlight{
+     font-weight: bolder;
+     margin: 3px;
+     background-color:#C7EBF0;
+}
+
+.icon-container{
+     text-align: center;
+}
+
+.icon-wrapper {
+     font-size: 2em;
+     margin: 3px;
+     color: black;
+}
+
+.icon-wrapper:hover{
+     cursor: pointer;
+}
+
+.button-container{
+     margin: 2em;
+}
+
+.btn-bg-color{
+     color: white;
+     background-color: black;
+}
+
+.btn-bg-color:hover{
+     cursor: pointer;
 }
