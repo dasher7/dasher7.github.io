@@ -287,3 +287,13 @@ body {
   padding: 2em;
   margin: auto;
 }
+
+.blog-container {
+  padding: 2em;
+  margin: 2em;
+}
+
+.blog-image {
+  height: 300px;
+  width: 300px;
+}
