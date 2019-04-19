@@ -285,7 +285,7 @@ body {
 
 .projects-container {
   padding: 2em;
-  margin: auto;
+  margin: 2em;
 }
 
 .blog-container {
@@ -296,4 +296,9 @@ body {
 .blog-image {
   height: 300px;
   width: 300px;
+}
+
+.contact-me-container {
+  margin: 2em;
+  padding: 2em;
 }
