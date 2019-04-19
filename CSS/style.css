@@ -14,6 +14,11 @@ body {
   margin: 0;
 }
 
+.section-title {
+  font-weight: bolder;
+  font-size: 48px;
+}
+
 .container-grid {
   display: grid;
   grid-template-columns: 0.3fr 0.7fr;
@@ -60,6 +65,7 @@ body {
 .contact-me {
   background-color: var(--undefined-grey);
   grid-column-start: 2;
+  height: 100vh;
 }
 
 .propic {
@@ -124,6 +130,11 @@ body {
   font-weight: bold;
   margin-bottom: 0px;
   margin-left: 3px;
+}
+
+.personal-experience-container {
+  margin: 2em;
+  padding: 2em;
 }
 
 /* INIZIO STYLING TIMELINE */
@@ -271,3 +282,8 @@ body {
 }
 
 /* FINE STYLING TIMELINE */
+
+.projects-container {
+  padding: 2em;
+  margin: auto;
+}
