@@ -165,7 +165,7 @@ body {
   height: 30px;
   border-radius: 50%;
   background: black;
-  border: 5px solid #fff;
+  border: 5px solid var(--punchy-green);
   box-shadow: 0 0 0 3px black;
   position: absolute;
   top: 25px;
