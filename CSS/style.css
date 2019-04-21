@@ -307,3 +307,46 @@ body {
   background-color: transparent;
   border: none;
 }
+
+@media only screen and (max-width: 800px) {
+  .container-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 1fr);
+    grid-template-rows: 1fr;
+  }
+
+  .sidebar-content-grid {
+    position: absolute;
+    margin: 1.5em;
+    padding: 2em;
+    z-index: 2;
+  }
+
+  .slogan {
+    margin-left: 50px;
+  }
+
+  .icon-container {
+    display: flex;
+    text-align: center;
+    margin-left: 50px;
+  }
+
+  .icon-wrapper {
+    font-size: 28px;
+  }
+
+  .button-container {
+    text-align: center;
+    margin-left: 50px;
+  }
+
+  .btn-bg-color {
+    padding: 1em;
+    margin: 1em;
+  }
+
+  .skilLs {
+    margin-top: 950px;
+  }
+}
