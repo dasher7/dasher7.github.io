@@ -12,6 +12,7 @@
 body {
   min-height: 100vh;
   margin: 0;
+  box-sizing: border-box;
 }
 
 .section-title {
@@ -283,6 +284,11 @@ body {
 
 /* FINE STYLING TIMELINE */
 
+.card {
+  margin-bottom: 30px;
+  padding-bottom: 30px;
+}
+
 .projects-container {
   padding: 2em;
   margin: 2em;
@@ -348,5 +354,9 @@ body {
 
   .skilLs {
     margin-top: 950px;
+  }
+
+  .container {
+    display: block;
   }
 }
