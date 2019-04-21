@@ -302,3 +302,8 @@ body {
   margin: 2em;
   padding: 2em;
 }
+
+.transparent-input {
+  background-color: transparent;
+  border: none;
+}
