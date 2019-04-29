@@ -1,6 +1,8 @@
 window.addEventListener("load", () => {
+  console.log(window.innerWidth);
+
   //removing animation CSS class for mobile;
-  if (window.innerWidth < 950) {
+  if (window.innerWidth < 950 || window.innerWidth < 1200) {
     //removing sidebar animations
     document.getElementById("sidebar").classList.remove("animated");
     document.getElementById("sidebar").classList.remove("fadeInRight");
