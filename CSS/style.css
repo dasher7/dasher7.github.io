@@ -331,9 +331,11 @@ form {
 @media only screen and (max-width: 800px) {
   .container-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, 1fr);
+    grid-template-columns: 1fr;
     grid-template-rows: 1fr;
   }
+
+  /* FIXING LAYOUT FOR MOBILE VIEW */
 
   .sidebar-content-grid {
     position: absolute;
